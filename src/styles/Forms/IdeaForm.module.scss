@@ -1,0 +1,46 @@
+.ideaFormContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 35.2rem;
+  height: fit-content;
+  border-radius: 0.6rem;
+  background: rgb(245, 245, 247);
+
+  .ideaFormWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .titleBox {
+      padding: 8px 12px;
+      border-bottom: 1px solid #d3d3d3;
+
+      h3 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: normal;
+        color: rgb(44, 44, 46);
+      }
+    }
+    .formBox {
+      padding: 8px 12px;
+      height: fit-content;
+
+      textarea {
+        width: 100%;
+        height: 3rem;
+        border: none;
+        outline: none;
+        resize: none;
+        background: transparent;
+        word-break: auto-phrase;
+      }
+    }
+    .buttonBox {
+      display: flex;
+      padding: 8px 12px;
+      align-items: center;
+    }
+  }
+}
