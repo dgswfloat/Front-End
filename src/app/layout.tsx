@@ -1,4 +1,5 @@
 import "./globals.css";
+import FloatHeader from "@/app/components/Headers/FloatHeader";
 
 export default function RootLayout({
   children,
@@ -8,6 +9,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={``}>
+        <FloatHeader />
         {children}
       </body>
     </html>
